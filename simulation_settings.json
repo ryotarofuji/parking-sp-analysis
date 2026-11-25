@@ -1,0 +1,96 @@
+{
+  "seed": 20261123,
+  "population_allocation": "Per info group: 64 student users, 96 student nonusers, 16 staff users, 24 staff nonusers; 67,67,66 per block rotated.",
+  "source": "parking_task18_memo_20261103(4).docx and 01_アンケート調査(3).docx; simulated assumptions are NOT findings",
+  "choice_coefficients": {
+    "reform_constant": -0.3,
+    "price_nonuser_per_1000": 0.5,
+    "additional_user_price_per_1000": 0.42,
+    "gate": [
+      0,
+      0.14,
+      0.24
+    ],
+    "safety": [
+      0,
+      0.24,
+      0.5
+    ],
+    "parking_service": [
+      0,
+      0.12,
+      0.2
+    ],
+    "bus_discount": [
+      0,
+      0.12,
+      0.22
+    ],
+    "bus_frequency": [
+      0,
+      0.16,
+      0.27
+    ],
+    "user_parking_service_bonus": [
+      0,
+      0.12,
+      0.22
+    ],
+    "nonuser_bus_discount_bonus": [
+      0,
+      0.13,
+      0.23
+    ],
+    "nonuser_bus_frequency_bonus": [
+      0,
+      0.14,
+      0.26
+    ],
+    "info_reform_bonus": {
+      "I1": 0,
+      "I2": 0.06,
+      "I3": 0.2,
+      "I4": 0.17,
+      "I5": 0.07
+    },
+    "info_gate_bonus": 0.17,
+    "info_safety_bonus": 0.2,
+    "shared_shock_sd": 0.25,
+    "choice_temperature": 1.0
+  },
+  "support_parameters": {
+    "intercept": 0.1,
+    "threshold_oppose": -0.35,
+    "threshold_neutral": 0.85,
+    "shared_choice_score_weight": 0.9,
+    "independent_shock_sd": 0.2
+  },
+  "parking_intention_parameters": {
+    "base_user": 1.95,
+    "base_nonuser": -2.35,
+    "user_price_penalty": 0.62,
+    "nonuser_price_penalty": 0.16,
+    "safety_bonus": [
+      0,
+      0.08,
+      0.16
+    ],
+    "parking_bonus": [
+      0,
+      0.09,
+      0.18
+    ],
+    "bus_discount_penalty": [
+      0,
+      0.08,
+      0.17
+    ],
+    "bus_frequency_penalty": [
+      0,
+      0.12,
+      0.23
+    ],
+    "uncertainty_base": 0.08,
+    "uncertainty_center_bonus": 0.15
+  }
+}
